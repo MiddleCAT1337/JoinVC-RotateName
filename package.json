@@ -1,0 +1,21 @@
+{
+  "name": "discord-nickname-scheduler",
+  "version": "1.0.0",
+  "description": "Discord bot that changes its nickname per guild on a Thailand (Asia/Bangkok) schedule",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test src/schedule.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@snazzah/davey": "^0.1.12",
+    "discord.js": "^14.16.3",
+    "luxon": "^3.5.0",
+    "node-cron": "^3.0.3"
+  }
+}
